@@ -30,7 +30,7 @@ let Stack = (function() {
             return s.length == 0;
         }
         clear() {
-            let s = items.get(this, []);
+            items.set(this, []);
         }
         size() {
             let s = items.get(this);
@@ -46,3 +46,27 @@ let Stack = (function() {
 })();
 
 let stack = new Stack();
+
+console.log(stack.isEmpty());
+stack.push("NovoItem");
+stack.push("NovoItem2");
+
+console.log(stack.isEmpty());
+console.log(stack.size());
+console.log(stack.print());
+
+stack.push("NovoItem3");
+
+console.log(stack.size());
+console.log(stack.print());
+
+console.log(stack.pop());
+
+console.log(stack.size());
+console.log(stack.print());
+
+stack.clear();
+
+console.log(stack.size());
+console.log(stack.print());
+console.log(stack.isEmpty());
