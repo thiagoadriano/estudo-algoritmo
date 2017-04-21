@@ -1,5 +1,5 @@
 /**
- * Estrutura de dados no fotmato LIFO (Last In First Out - O último a Entrar é o primeiro a sair)
+ * Estrutura de dados no fotmato LIFO (Last In First Out - O último a Entrar é o primeiro a sair) este é um conceito de PILHA
  * nesse conceito os elemntos novos entram no final do array dessa forma quando for chamar ou executar 
  * tera de puxar o ultimo elemento adicionado 
  * [https://pt.wikipedia.org/wiki/LIFO]
