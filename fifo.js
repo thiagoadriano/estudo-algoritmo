@@ -1,5 +1,5 @@
 /**
- * Estrutura de dados no fotmato FIFO (First In First Out - O primeiro a Entrar é o primeiro a sair) este é um conceito de FILA
+ * Estrutura de dados no formato FIFO (First In First Out - O primeiro a Entrar é o primeiro a sair) este é um conceito de FILA
  * nesse conceito os elemntos novos entram no final do array dessa forma quando for chamar ou executar 
  * tera de puxar o primeiro elemento adicionado 
  * [https://pt.wikipedia.org/wiki/FIFO]
